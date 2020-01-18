@@ -1,6 +1,6 @@
 Name:           perl-Locale-PO
 Version:        0.23
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Perl module for manipulating .po entries from GNU gettext
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -42,6 +42,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.23-2
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Iain Arnell <iarnell@gmail.com> 0.23-1
 - update to latest upstream version
 
